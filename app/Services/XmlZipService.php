@@ -63,7 +63,6 @@ class XmlZipService
 
         $zip = Zip::create($this->path_zip.'.zip');
         $zip->add($this->path_zip);
-        $zip->setMask(0755);
         $zip->close();
 
         File::deleteDirectory($this->path_zip);

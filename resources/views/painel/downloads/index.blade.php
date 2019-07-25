@@ -36,7 +36,7 @@
                                                       <th>CODIGO</th>
                                                       <th>NOME</th>
                                                       <th>CRIADO EM</th>
-                                                      <th>FINALIZADO EM</th>
+                                                      <th>ATUALIZADO EM</th>
                                                       <th>STATUS</th>
                                                       <th>AÇÕES</th>
                                                     </tr>
@@ -47,7 +47,7 @@
                                                         <th>CODIGO</th>
                                                         <th>NOME</th>
                                                         <th>CRIADO EM</th>
-                                                        <th>FINALIZADO EM</th>
+                                                        <th>ATUALIZADO EM</th>
                                                         <th>STATUS</th>
                                                         <th>AÇÕES</th>
                                                     </tr>

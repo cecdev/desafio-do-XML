@@ -18,7 +18,8 @@
         "predis/predis": "^1.1",
         "pusher/pusher-php-server": "^4.0",
         "reliese/laravel": "^0.0.13",
-        "spatie/array-to-xml": "^2.10"
+        "yajra/laravel-datatables-oracle": "~9.0",
+        "zanysoft/laravel-zip": "^1.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

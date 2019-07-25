@@ -1,0 +1,6 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/../resources/css/app.css": "/../resources/css/app.css",
+    "/../resources/css/screen-login.css": "/../resources/css/screen-login.css",
+    "/css/all.css": "/css/all.css"
+}

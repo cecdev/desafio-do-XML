@@ -1,0 +1,45 @@
+.screen-login-left{
+    height: 100vh;
+    background: url('/images/site/background-login.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.screen-login-rigth{
+    background: #fff;
+    height: 100vh;
+    .title-page{
+        color: #337ab7;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .image-desafio{
+        height: 250px;
+        background: url('/images/site/background-login.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+   .container-login{
+       padding: 20px;
+
+    .input-login{
+        height: 60px;
+        font-size: 2rem;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        &:focus{
+            border: 1px solid #29abe2;
+        }
+    }
+    .btn{
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+    }
+   }
+}
+

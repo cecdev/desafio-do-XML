@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        \App\Console\Commands\ProcessControlXML::class
     ];
 
     /**
@@ -24,8 +24,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        $schedule->call(function()
+        {
+            $exitCode = Artisan::call('84CodeArt:ProcessCtrlXML');
+
+        })->name('job_agendado')->everyMinute()->withoutOverlapping(60);
     }
 
     /**

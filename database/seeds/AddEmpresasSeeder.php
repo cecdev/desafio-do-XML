@@ -18,7 +18,7 @@ class AddEmpresasSeeder extends Seeder
     public function run()
     {
 
-        for($a=0;$a<20000;$a++):
+        for($a=0;$a<5000;$a++):
             $response_cnpj = Curl::to('http://geradorapp.com/api/v1/cnpj/generate?token=9a2999d5403fda100f490d300aea2990')
         ->withResponseHeaders()
         ->returnResponseObject()
@@ -77,9 +77,9 @@ class AddEmpresasSeeder extends Seeder
 
             endfor;
 
-
+            echo $a.' PROCESS '.$empresa->id."\n";
         endif;
-        //sleep(1);
+        sleep(1);
         endfor;
 
 
